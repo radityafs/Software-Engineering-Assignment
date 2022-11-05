@@ -160,6 +160,7 @@
                         android:textColor="#fff" />
 
                     <ImageView
+                        android:id="@+id/card_rafael"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_alignParentRight="true"
@@ -171,7 +172,6 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/c4"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_marginTop="20dp"
