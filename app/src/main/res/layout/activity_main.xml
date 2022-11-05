@@ -76,6 +76,7 @@
                         android:textColor="#fff" />
 
                     <ImageView
+                        android:id="@+id/card_nurul"
                         android:layout_width="150dp"
                         android:layout_height="120dp"
                         android:layout_alignParentRight="true"
