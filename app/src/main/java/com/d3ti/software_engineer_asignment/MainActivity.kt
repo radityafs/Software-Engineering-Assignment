@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val raditya = findViewById<ImageView>(R.id.card_raditya)
         val dewantoro = findViewById<ImageView>(R.id.card_dewantoro)
         val rafael = findViewById<ImageView>(R.id.card_rafael)
+        val nurul = findViewById<ImageView>(R.id.card_nurul)
 
         raditya.setOnClickListener {
             val intent = Intent(this, RadityaActivity::class.java)
@@ -31,6 +32,11 @@ class MainActivity : AppCompatActivity() {
 
         rafael.setOnClickListener {
             val intent = Intent(this, RafaelActivity::class.java)
+            startActivity(intent)
+        }
+
+        nurul.setOnClickListener {
+            val intent = Intent(this, NurulActivity::class.java)
             startActivity(intent)
         }
     }
