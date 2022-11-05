@@ -79,7 +79,8 @@
                         android:layout_width="150dp"
                         android:layout_height="120dp"
                         android:layout_alignParentRight="true"
-                        android:maxHeight="100dp" />
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/nurul" />
 
                 </RelativeLayout>
 
@@ -117,10 +118,12 @@
                         android:textColor="#fff" />
 
                     <ImageView
+                        android:id="@+id/card_raditya"
                         android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:layout_alignParentRight="true"
-                        android:maxHeight="100dp" />
+                        android:maxHeight="100dp"
+                        tools:src="@drawable/raditya" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
@@ -160,7 +163,8 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_alignParentRight="true"
-                        android:maxHeight="100dp" />
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/rafael" />
 
                 </RelativeLayout>
 
@@ -201,7 +205,8 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_alignParentRight="true"
-                        android:maxHeight="100dp" />
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/sherly" />
 
                 </RelativeLayout>
 
@@ -242,7 +247,8 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_alignParentRight="true"
-                        android:maxHeight="100dp" />
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/naufal" />
 
                 </RelativeLayout>
 
