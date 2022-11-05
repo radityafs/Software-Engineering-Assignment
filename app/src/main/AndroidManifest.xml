@@ -16,7 +16,15 @@
             android:name=".RadityaActivity"
             android:exported="false"
             android:label="@string/title_activity_raditya"
-            android:theme="@style/Theme.SoftwareEngineerAsignment.NoActionBar" >
+            android:theme="@style/Theme.SoftwareEngineerAsignment" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DewantoroActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SoftwareEngineerAsignment" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
