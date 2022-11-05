@@ -16,9 +16,15 @@ class MainActivity : AppCompatActivity() {
     public fun clickListener() {
 
         val raditya = findViewById<ImageView>(R.id.card_raditya)
+        val dewantoro = findViewById<ImageView>(R.id.card_dewantoro)
 
         raditya.setOnClickListener {
             val intent = Intent(this, RadityaActivity::class.java)
+            startActivity(intent)
+        }
+
+        dewantoro.setOnClickListener {
+            val intent = Intent(this, DewantoroActivity::class.java)
             startActivity(intent)
         }
     }
